@@ -1,2 +1,3 @@
-document.write("myScript.js");
-alert("The file is working.");
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
