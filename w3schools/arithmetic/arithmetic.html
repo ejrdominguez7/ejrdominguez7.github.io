@@ -186,6 +186,31 @@ document.getElementById("demo13").innerHTML = 100 + 50 * 3;
 </script>
 
 </body>
+  <hr>
+  <body>
+
+<p>Multiplication has precedence over addition.</p>
+<p>But parenthesis has precedence over multiplication.</p>
+
+<p id="demo14"></p>
+
+<script>
+document.getElementById("demo14").innerHTML = (100 + 50) * 3;
+</script>
+
+</body>
+  <hr>
+  <body>
+
+<p>When many operations has the same precedence, they are computed from left to right.</p>
+
+<p id="demo15"></p>
+
+<script>
+document.getElementById("demo15").innerHTML = 100 + 50 - 3;
+</script>
+
+</body>
     
 
 </html>
